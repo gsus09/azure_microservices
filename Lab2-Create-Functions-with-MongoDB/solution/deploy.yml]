@@ -1,0 +1,20 @@
+Running 'docker build -t miroservicesudacity.azurecr.io/amslesson415:latest C:\Projects\Training\tech_drive_ml\Data_Engeeniering\AzureMicroservices\nd081-c2-Azure-Microservices-Exercises\Lab2-Create-Functions-with-MongoDB\solution'.....done
+secret/amslesson415 created
+secret/func-keys-kube-secret-amslesson415 created
+serviceaccount/amslesson415-function-keys-identity-svc-act created
+role.rbac.authorization.k8s.io/functions-keys-manager-role unchanged
+rolebinding.rbac.authorization.k8s.io/amslesson415-function-keys-identity-svc-act-functions-keys-manager-rolebinding created
+service/amslesson415-http created
+deployment.apps/amslesson415-http created
+Waiting for deployment "amslesson415-http" rollout to finish: 0 of 1 updated replicas are available...
+deployment "amslesson415-http" successfully rolled out
+	getNote - [httpTrigger]
+	Invoke url: http://172.185.171.118/api/getnote
+
+	getNotes - [httpTrigger]
+	Invoke url: http://172.185.171.118/api/getnotes?code=bWDXolRpCRSfquGFXGsfH6fpW7oMZvdiooVSrbMcjiHq/GLhP9JeDA==
+
+	getNotesMartin - [httpTrigger]
+	Invoke url: http://172.185.171.118/api/getnotesmartin
+
+	Master key: i3xOCcjqw8aOp37NC3Mio4sBPOBiN87e5uVGRD3eKyzvw5Qwubcilg==
